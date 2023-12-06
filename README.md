@@ -17,6 +17,9 @@ To run the project locally, follow these steps:
     ```bash
     npm start
     ```
+3. **How to use demo:**
+   
+    Open two separate pages both can be same or one can be /about, then start clicking buttons you will see the magic.
 
 ## Technologies Used
 
