@@ -1,30 +1,30 @@
 # React Persistent Data Over Pages
 
-Bu proje, React, Redux, localStorage ve redux-persist kullanarak sayfalar arası veri paylaşımını ve ortak veri yönetimini hedefler.
+This project is designed to facilitate data sharing and centralized data management across pages using React, Redux, localStorage, and redux-persist.
 
-## Başlangıç
+## Getting Started
 
-Proje yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+To run the project locally, follow these steps:
 
-1. **Bağımlılıkları İndirin:**
+1. **Install Dependencies:**
 
     ```bash
     npm install
     ```
 
-2. **Uygulamayı Çalıştırın:**
+2. **Run the Application:**
 
     ```bash
     npm start
     ```
 
-## Kullanılan Teknolojiler
+## Technologies Used
 
 - React
 - Redux
 - Redux Persist
 
-## Proje Yapısı
+## Project Structure
 
 - `/src`
   - `/Classes`
@@ -35,11 +35,11 @@ Proje yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
     - ...
   - ...
 
-## State Yönetimi
+## State Management
 
-Bu projede sayfalar arası durum geçişi için `localStorage` ve `redux-persist` kullanıldı.
+This project utilizes `localStorage` and `redux-persist` for seamless state transition.
 
-## Redux Yapısı
+## Redux Structure
 
 - `/src/Redux`
   - `/counter`
@@ -49,18 +49,18 @@ Bu projede sayfalar arası durum geçişi için `localStorage` ve `redux-persist
   - `listener.ts`
   - `store.ts`
 
-## Ekranlar (Screens)
+## Screens
 
 - `/src/Screens`
   - `Home.tsx`
   - `About.tsx`
   - `globalProps.types.ts`
 
-## Diğer Klasörler ve Dosyalar
+## Other Folders and Files
 
 - `/src/Classes`
   - `SecureAsyncStorage.ts`
 
-## Lisans
+## License
 
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LİSANS DOSYASI](LICENSE) dosyasına bakın.
+This project is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.
