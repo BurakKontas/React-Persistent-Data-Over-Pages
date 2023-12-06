@@ -2,6 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import { persistReducer, persistStore } from "redux-persist";
 import { counterSlice } from "./counter/slice";
 import PersistConfigs from "./persist.config";
+import listener from "./listener";
 
 const rootReducer = {
     counter: persistReducer(PersistConfigs.counter, counterSlice.reducer),
@@ -18,3 +19,5 @@ export const persistor = persistStore(store);
 
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
+
+listener();
